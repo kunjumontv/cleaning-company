@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-white; 
+}
+
+.bg-section {
+  @apply bg-[url('/images/main-bg.webp')] bg-cover bg-center h-[700px] max-h-[700px] w-full m-0 p-0 relative overflow-x-hidden;
+}
