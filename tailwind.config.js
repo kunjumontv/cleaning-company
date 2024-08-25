@@ -13,6 +13,10 @@ module.exports = {
         "desaturated-teal": "#0a2323",
         "greenish-blue": "#4c5b5c",
       },
+      fontSize: {
+        '32px': '32px',
+        '44px': '44px',
+      },
     },
   },
   plugins: [],

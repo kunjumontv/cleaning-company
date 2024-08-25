@@ -5,6 +5,7 @@ import Banner from "@/components/Banner";
 import ContactForm from "@/components/ContactForm";
 import ClientReviews from "@/components/ClientReviews";
 import OurServices from "@/components/OurServices";
+import FeaturedIn from "@/components/FeaturedIn";
 
 const questrial = Questrial({
   subsets: ["latin"],
@@ -25,6 +26,7 @@ export default function Home() {
       </div>
       <ClientReviews />
       <OurServices />
+      <FeaturedIn />
     </main>
   );
 }

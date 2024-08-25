@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactForm = () => {
   return (
-    <div className="absolute left-1/2 transform -translate-x-1/2 w-[95%] top-[30rem] rounded-lg bg-yellow md:w-[745px] p-4 md:left-auto md:right-[80px] md:transform-none md:top-[34rem]">
+    <div className="absolute left-1/2 transform -translate-x-1/2 w-[95%] top-[30rem] rounded-lg bg-yellow md:w-[745px] p-4 md:left-auto lg:right-[110px] md:transform-none md:top-[34rem]">
       <h2 className="text-2xl text-center pt-10">Get a Free Estimate</h2>
       <p className="text-lg text-center">Contact Us</p>
       <form className="p-2 grid grid-cols-1 gap-4 md:grid-cols-3">
