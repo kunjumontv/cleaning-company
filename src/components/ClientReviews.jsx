@@ -1,0 +1,36 @@
+import { FaStar } from "react-icons/fa";
+import clientReviews from "../../public/assets/clientReviews";
+
+const ClientReviews = () => {
+  
+    const renderStars = (rating) => {
+    return [...Array(5)].map((_, index) => (
+      <FaStar
+        key={index}
+        color={index < rating ? "#FFD700" : "#E0E0E0"} 
+        className="inline"
+      />
+    ));
+    };
+    
+  return (
+    <div className="mt-36 lg:mx-28">
+      <h2 className="text-2xl text-center mb-4 md:text-4xl md:text-start">Shiny Happy Clients</h2>
+      <div className="md:flex md:justify-center md:gap-4 space-y-4 md:space-y-0">
+        {clientReviews.map((review) => (
+          <div
+            key={review.id}
+            className="flex flex-col md:w-[250px] bg-yellow py-10 px-5 gap-4"
+          >
+            <span>{renderStars(review.ratings)}</span>
+            <h4 className="text-2xl md:h-[50px] md:font-bold">{review.title}</h4>
+            <p className="text-sm mt-4">{review.comment}</p>
+            <p className="text-sm">{review.reviewver}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default ClientReviews;

@@ -7,5 +7,17 @@ body {
 }
 
 .bg-section {
-  @apply bg-[url('/images/main-bg.webp')] bg-cover bg-center h-[700px] max-h-[700px] w-full m-0 p-0 relative overflow-x-hidden;
+  @apply bg-[url('/images/main-bg.webp')] bg-cover bg-center h-[600px] md:h-[700px] max-h-[700px] w-full m-0 p-0 relative overflow-x-hidden;
+}
+
+/* For Chrome, Safari, and Edge */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* For Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
 }
