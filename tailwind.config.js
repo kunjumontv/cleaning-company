@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'iphone5': { 'raw': '(min-width: 320px) and (max-width: 374px)' },  
+        'iphone15pm': { 'raw': '(min-width: 375px) and (max-width: 430px)' }, 
+      },
       colors: {
         'yellow': "#FFF9AF",
         "subtle-yellow": "#fffdf2",
@@ -17,6 +21,9 @@ module.exports = {
         '32px': '32px',
         '44px': '44px',
       },
+      margin: {
+        
+      }
     },
   },
   plugins: [],

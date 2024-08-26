@@ -6,6 +6,7 @@ import ContactForm from "@/components/ContactForm";
 import ClientReviews from "@/components/ClientReviews";
 import OurServices from "@/components/OurServices";
 import FeaturedIn from "@/components/FeaturedIn";
+import BeforeAfterSlider from "@/components/BeforeAfterSlider";
 
 const questrial = Questrial({
   subsets: ["latin"],
@@ -27,6 +28,7 @@ export default function Home() {
       <ClientReviews />
       <OurServices />
       <FeaturedIn />
+      <BeforeAfterSlider />
     </main>
   );
 }

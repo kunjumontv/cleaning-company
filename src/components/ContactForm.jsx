@@ -2,10 +2,10 @@ import React from "react";
 
 const ContactForm = () => {
   return (
-    <div className="absolute left-1/2 transform -translate-x-1/2 w-[95%] top-[30rem] rounded-lg bg-yellow md:w-[745px] p-4 md:left-auto lg:right-[110px] md:transform-none md:top-[34rem]">
+    <div className="absolute left-1/2 transform -translate-x-1/2 w-[95%] top-[32rem] rounded-lg bg-yellow md:w-[745px] p-4 md:left-auto lg:right-[110px] md:transform-none md:top-[34rem] md:right-[10px]">
       <h2 className="text-2xl text-center pt-10">Get a Free Estimate</h2>
       <p className="text-lg text-center">Contact Us</p>
-      <form className="p-2 grid grid-cols-1 gap-4 md:grid-cols-3">
+      <form className="p-2 grid grid-cols-1 md:gap-4 md:grid-cols-3">
         <div className="flex flex-col">
           <label htmlFor="firstName" className="text-sm mb-2 mt-4">
             First Name*
@@ -111,8 +111,8 @@ const ContactForm = () => {
           </select>
         </div>
 
-        <div className="md:col-span-3 text-center">
-          <button className=" bg-desaturated-teal text-subtle-yellow whitespace-nowrap px-10 py-4 rounded-full transition-all hover:bg-subtle-yellow hover:text-desaturated-teal hover:border hover:border-desaturated-teal">
+        <div className="md:col-span-3 text-center mt-4 pb-10">
+          <button className="text-md px-12 py-3 bg-desaturated-teal text-subtle-yellow whitespace-nowrap md:px-16 md:py-4 md:text-base rounded-full transition-all hover:bg-subtle-yellow hover:text-desaturated-teal hover:border hover:border-desaturated-teal">
             Get a Quote
           </button>
         </div>

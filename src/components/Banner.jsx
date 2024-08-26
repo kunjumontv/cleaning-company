@@ -3,7 +3,7 @@ import React from "react";
 const Banner = () => {
   return (
     <div className="text-white text-center px-12 md:text-start z-50">
-      <div className="pt-12 md:pt-56 md:px-16">
+      <div className="pt-12 md:pt-40 lg:pt-56 md:px-16">
         <h1 className="text-3xl font-bold md:text-6xl md:font-normal">Remarkably Cleaner.</h1> 
         <h1 className="text-3xl font-bold md:text-6xl md:font-normal">Amazingly Simpler.</h1>
       </div>
