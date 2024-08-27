@@ -7,6 +7,7 @@ import ClientReviews from "@/components/ClientReviews";
 import OurServices from "@/components/OurServices";
 import FeaturedIn from "@/components/FeaturedIn";
 import BeforeAfterSlider from "@/components/BeforeAfterSlider";
+import HowItWorks from "@/components/HowItWorks";
 
 const questrial = Questrial({
   subsets: ["latin"],
@@ -29,6 +30,10 @@ export default function Home() {
       <OurServices />
       <FeaturedIn />
       <BeforeAfterSlider />
+      <div className="bg-howitworks">
+
+      <HowItWorks />
+      </div>
     </main>
   );
 }

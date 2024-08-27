@@ -10,6 +10,10 @@ body {
   @apply bg-[url('/images/main-bg.webp')] bg-cover bg-center h-[600px] md:h-[700px] max-h-[700px] w-full m-0 p-0 relative overflow-x-hidden;
 }
 
+.bg-howitworks {
+  @apply bg-[url('/images/clean.webp')] bg-cover bg-center h-[400px] md:h-[400px] max-h-[500px] w-full mt-10 p-0 bg-black bg-opacity-80 relative ;
+}
+
 /* For Chrome, Safari, and Edge */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {

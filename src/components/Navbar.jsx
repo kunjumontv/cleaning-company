@@ -63,7 +63,7 @@ const Navbar = () => {
       {/* Mobile View Navbar */}
       {!toggleMenuButton && (
         <motion.nav
-          className={`md:hidden absolute inset-0 bg-subtle-yellow text-2xl transition-all w-full z-50`}
+          className={`md:hidden absolute inset-0 bg-subtle-yellow text-2xl transition-all w-full z-50 h-screen`}
           initial={{ y: "-100%" }}
           animate={{ y: "0%" }}
           exit={{ y: "-100%" }}
