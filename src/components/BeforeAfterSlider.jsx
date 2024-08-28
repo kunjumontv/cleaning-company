@@ -17,11 +17,11 @@ const BeforeAfterSlider = () => {
         slidesPerView={1}
         navigation
         autoplay={{
-          delay: 3000,
+          delay: 5000,
           disableOnInteraction: false,
         }}
         loop={true}
-        speed={1000} 
+        speed={2000} 
       >
         <SwiperSlide>
           <div className="md:flex-row md:justify-center ">
