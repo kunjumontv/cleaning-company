@@ -16,6 +16,8 @@ module.exports = {
         "subtle-yellow": "#fffdf2",
         "desaturated-teal": "#0a2323",
         "greenish-blue": "#4c5b5c",
+        "dark-yellow": "#ecc831",
+        "black":"#0a2323"
       },
       fontSize: {
         '32px': '32px',

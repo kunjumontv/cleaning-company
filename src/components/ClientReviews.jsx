@@ -13,7 +13,7 @@ const ClientReviews = () => {
   };
 
   return (
-    <div className="md:mt-56 2xl:mt-20 iphone5:mt-[30rem] iphone15pm:mt-52 lg:mx-28">
+    <div className="lg:mt-56 2xl:mt-20 iphone5:mt-[30rem] iphone15pm:mt-52 lg:mx-28">
       <h2 className="text-2xl text-center mb-4 md:text-4xl lg:text-start">
         Shiny Happy Clients
       </h2>

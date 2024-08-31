@@ -8,7 +8,7 @@ const OurServices = () => {
         For Anything You Need
       </h2>
       <p className="text-lg text-center md:text-2xl">Our stellar services</p>
-      <div className="flex flex-col gap-4 mt-8 md:flex-row md:justify-center md:mt-10 md:gap-6 md:px-28">
+      <div className="flex flex-col gap-4 mt-8 md:flex-row md:justify-center md:mt-10 md:gap-6 md:px-6 lg:px-28">
         <div className="relative flex flex-1">
           <Image
             src="/images/floor3.webp"
