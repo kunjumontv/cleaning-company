@@ -8,8 +8,10 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        'iphone5': { 'raw': '(min-width: 320px) and (max-width: 374px)' },  
-        'iphone15pm': { 'raw': '(min-width: 375px) and (max-width: 430px)' }, 
+        'iphone5': { 'raw': '(min-width: 320px) and (max-width: 359px)' },  
+        'iphone10': { 'raw': '(min-width: 360px) and (max-width: 374px)' },  
+        'iphone15pm': { 'raw': '(min-width: 375px) and (max-width: 400px)' }, 
+        'iphone15pro': { 'raw': '(min-width: 401px) and (max-width: 430px)' }, 
       },
       colors: {
         "pastel":"#fffdf2",
