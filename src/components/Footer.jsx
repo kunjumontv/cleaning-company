@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div>
       <div>
-        <Image src="/images/white-shelf.webp" width={1440} height={300} />
+        <Image src="/images/white-shelf.webp" width={1440} height={300} className='h-[250px]' />
       </div>
       <div className="bg-yellow w-full px-8 py-16 lg:px-28 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         <div className="flex flex-col justify-between md:order-1 order-1">

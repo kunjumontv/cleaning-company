@@ -17,7 +17,7 @@ const HowItWorks = () => {
               <PiDrop className="text-4xl font-light text-black" />
             </div>
             <HiArrowLongUp className="text-6xl md:ml-4 rotate-180 md:rotate-90 mt-3 md:hidden" />
-            <p className="text-center text-xs mt-4 order-3 md:order-2 ">
+            <p className="text-center text-xs mt-4 order-3 md:order-2 lg:text-base">
               Choose your desired <br /> cleaning service
             </p>
           </div>
@@ -29,7 +29,7 @@ const HowItWorks = () => {
               <IoShirtOutline className="text-4xl font-light text-black" />
             </div>
             <HiArrowLongUp className="text-6xl md:ml-4 rotate-180 md:rotate-90 mt-3 md:hidden" />
-            <p className="text-center text-xs mt-4 order-3 md:order-2">
+            <p className="text-center text-xs mt-4 order-3 md:order-2 lg:text-base">
               Use the Cleanic App for <br /> laundry pickup
             </p>
           </div>
@@ -41,7 +41,7 @@ const HowItWorks = () => {
               <GoKey className="text-4xl font-light text-black" />
             </div>
             <HiArrowLongUp className="text-6xl md:ml-4 rotate-180 md:rotate-90 mt-3 md:hidden" />
-            <p className="text-center text-xs mt-4 order-3 md:order-2">
+            <p className="text-center text-xs mt-4 order-3 md:order-2 lg:text-base">
               Leave us the keys and <br />
               we'll take care of the rest
             </p>
@@ -54,7 +54,7 @@ const HowItWorks = () => {
               <IoHomeOutline className="text-4xl font-light text-black" />
             </div>
             <HiArrowLongUp className="text-6xl md:ml-4 rotate-180 md:rotate-90 mt-3 md:hidden" />
-            <p className="text-center text-xs mt-4 order-3 md:order-2">
+            <p className="text-center text-xs mt-4 order-3 md:order-2 lg:text-base">
               Welcome back to your <br /> home clean home!
             </p>
           </div>

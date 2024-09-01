@@ -9,6 +9,7 @@ import FeaturedIn from "@/components/FeaturedIn";
 import BeforeAfterSlider from "@/components/BeforeAfterSlider";
 import HowItWorks from "@/components/HowItWorks";
 import OurPlans from './../components/OurPlans';
+import WhyChoose from './../components/WhyChoose';
 import Footer from './../components/Footer';
 
 const questrial = Questrial({
@@ -36,6 +37,7 @@ export default function Home() {
       <HowItWorks />
       </div>
       <OurPlans />
+      <WhyChoose />
       <Footer />
     </main>
   );

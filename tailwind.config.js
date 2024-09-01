@@ -12,6 +12,7 @@ module.exports = {
         'iphone15pm': { 'raw': '(min-width: 375px) and (max-width: 430px)' }, 
       },
       colors: {
+        "pastel":"#fffdf2",
         'yellow': "#FFF9AF",
         "subtle-yellow": "#fffdf2",
         "desaturated-teal": "#0a2323",
@@ -20,6 +21,9 @@ module.exports = {
         "black":"#0a2323"
       },
       fontSize: {
+        '15px': '15px',
+        '19px': '19px',
+        '22px': '22px',
         '32px': '32px',
         '44px': '44px',
       },
