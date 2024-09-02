@@ -20,7 +20,7 @@ const Navbar = () => {
       <nav className="md:z-30 lg:mx-28 md:mt-10 md:grid md:grid-cols-[250px,1fr] flex justify-between bg-subtle-yellow p-6 md:absolute left-0 right-0">
         <div className="flex gap-2 items-center">
           <MdDryCleaning className="md:text-2xl transition hover:scale-x-[-1] " />
-          <p className="md:text-xl">The cleanic</p>
+          <p className="md:text-xl"><Link href="/">The cleanic</Link></p>
         </div>
         <div className="text-end md:hidden">
           {toggleMenuButton && (
