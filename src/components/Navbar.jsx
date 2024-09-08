@@ -1,11 +1,11 @@
-"use client";
-import Link from "next/link";
-import { MdDryCleaning } from "react-icons/md";
-import { RxHamburgerMenu } from "react-icons/rx";
-import { RiCloseLargeFill } from "react-icons/ri";
-import { FaUserCircle } from "react-icons/fa";
-import { motion } from "framer-motion";
-import { useState } from "react";
+'use client';
+import Link from 'next/link';
+import { MdDryCleaning } from 'react-icons/md';
+import { RxHamburgerMenu } from 'react-icons/rx';
+import { RiCloseLargeFill } from 'react-icons/ri';
+import { FaUserCircle } from 'react-icons/fa';
+import { motion } from 'framer-motion';
+import { useState } from 'react';
 
 const Navbar = () => {
   const [toggleMenuButton, setToggleMenuButton] = useState(true);
@@ -20,7 +20,9 @@ const Navbar = () => {
       <nav className="md:z-30 lg:mx-28 md:mt-10 md:grid md:grid-cols-[250px,1fr] flex justify-between bg-subtle-yellow p-6 md:absolute left-0 right-0">
         <div className="flex gap-2 items-center">
           <MdDryCleaning className="md:text-2xl transition hover:scale-x-[-1] " />
-          <p className="md:text-xl"><Link href="/">The cleanic</Link></p>
+          <p className="md:text-xl">
+            <Link href="/">The cleanic</Link>
+          </p>
         </div>
         <div className="text-end md:hidden">
           {toggleMenuButton && (
@@ -64,9 +66,9 @@ const Navbar = () => {
       {!toggleMenuButton && (
         <motion.nav
           className={`md:hidden absolute inset-0 bg-subtle-yellow text-2xl transition-all w-full z-50 h-screen`}
-          initial={{ y: "-100%" }}
-          animate={{ y: "0%" }}
-          exit={{ y: "-100%" }}
+          initial={{ y: '-100%' }}
+          animate={{ y: '0%' }}
+          exit={{ y: '-100%' }}
           transition={{ duration: 0.2 }}
         >
           <div className=" flex justify-between items-center pt-4 px-4">

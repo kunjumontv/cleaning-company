@@ -1,4 +1,4 @@
-import plansData from '../../../public/assets/plans';
+import { plansData } from '../../../public/assets/plans';
 import { PiArrowRightThin } from 'react-icons/pi';
 import Navbar from './../../components/Navbar';
 import Footer from './../../components/Footer';

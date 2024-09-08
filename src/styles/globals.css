@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-pastel; 
+  @apply bg-pastel;
 }
 
 .bg-section {
@@ -11,17 +11,17 @@ body {
 }
 
 .bg-howitworks {
-  @apply bg-desaturated-teal bg-cover bg-center h-[1000px] md:h-[300px] w-full mt-10 pb-20  ;
+  @apply bg-desaturated-teal bg-cover bg-center h-[1000px] md:h-[300px] w-full mt-10 pb-20;
 }
 
 /* For Chrome, Safari, and Edge */
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
 /* For Firefox */
-input[type="number"] {
+input[type='number'] {
   -moz-appearance: textfield;
 }

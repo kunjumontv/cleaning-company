@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div>
       
-        <div className="bg-yellow w-full px-8 py-16 lg:px-28 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="bg-yellow w-full px-8 py-12 lg:px-28 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="flex flex-col justify-between md:order-1 order-1">
             <div className="flex gap-2 items-center mb-6">
               <MdDryCleaning className="md:text-2xl transition hover:scale-x-[-1]" />
